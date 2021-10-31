@@ -16,13 +16,14 @@
   // margin-left: -30px;
   padding-bottom: 0px;
 }
+
 .advantage {
   margin-bottom: -94px;
 }
 
 .advantage__item {
   margin-left: 30px;
-  flex-basis: calc((100% - 120px) / 4);
+  width: 100%;
 }
 
 .advantage__link {
@@ -40,6 +41,7 @@
   // width: 70px;
   height: 70px;
 }
+
 .advantage__text {
   color: #757575;
   font-family: Roboto;
