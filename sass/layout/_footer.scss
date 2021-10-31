@@ -1,0 +1,74 @@
+.footer {
+  background-color: #2f303a;
+  padding: 60px 0;
+}
+
+.footer-info {
+  display: flex;
+  align-items: flex-start;
+}
+.footer-title {
+  margin-bottom: 20px;
+}
+.footer .studio {
+  color: #ffffff;
+  font-family: raleway, cursive;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+}
+.list1 {
+  list-style: none;
+  padding-top: 20px;
+  margin-right: 70px;
+}
+
+.address-mulo {
+  margin-bottom: 9px;
+}
+
+.address-mulo1 {
+  margin-bottom: 0px;
+}
+.address .list1 .contact {
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  background-color: #2f303a;
+  text-decoration: none;
+  margin-top: 20px;
+  margin-bottom: 9px;
+  &:hover,
+  &:focus {
+    color: #2196f3;
+  }
+}
+
+.address .list1 .contact1 {
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  text-decoration: none;
+  font-style: normal;
+  margin-top: 20px;
+  margin-bottom: 9px;
+  &:hover,
+  &:focus {
+    color: #2196f3;
+  }
+}
+
+.footer-text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 18px;
+}

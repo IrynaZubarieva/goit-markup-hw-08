@@ -1,0 +1,27 @@
+.section-people {
+  background-color: #f5f4fa;
+}
+
+.section-people-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section-people-link-link {
+  width: 44px;
+  height: 44px;
+  display: block;
+  border-radius: 50%;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    background-color: #2196f3;
+    & + .section-people-icon {
+      fill: #ffffff;
+    }
+  }
+}
