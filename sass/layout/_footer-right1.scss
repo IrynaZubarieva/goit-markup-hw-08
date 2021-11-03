@@ -11,15 +11,20 @@
   text-transform: uppercase;
   color: #ffffff;
   margin-bottom: 20px;
-  margin-left: 93px;
+  // margin-left: 93px;
+  text-align: center;
 }
 .online-form {
-  display: flex;
+  // display: flex;
+  width: 300px;
+  justify-content: center;
 }
 
 .online-text {
   color: rgba(255, 255, 255, 0.6);
-  width: 358px;
+  // width: 358px;
+  // height: 50px;
+  width: 300px;
   height: 50px;
   left: 815px;
   top: 2787px;
@@ -29,10 +34,14 @@
   border-radius: 4px;
   background: #2f303a;
   fill: 2f303a;
-  margin-left: 93px;
+  // margin-left: 93px;
+  margin: 0;
+  justify-content: center;
   padding-top: 15px;
   padding-left: 16px;
   padding-bottom: 15px;
+  margin-bottom: 20px;
+  margin-left: 80px;
   color: rgba(255, 255, 255, 0.6);
   resize: none;
   outline: 0px;

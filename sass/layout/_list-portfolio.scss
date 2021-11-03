@@ -1,5 +1,7 @@
 .list-portfolio {
   list-style: none;
+  margin: 0;
+  margin-bottom: -30px;
 }
 
 .list-portfolio-container {
@@ -18,9 +20,11 @@
 }
 
 .list-portfolio-elements {
-  flex-basis: calc(100% / 3 - 30px);
-  margin-left: 30px;
+  // flex-basis: calc(100% / 3 - 30px);
+  // margin-left: 30px;
   margin-top: 30px;
+  margin-bottom: 30px;
+  width: 100%;
 }
 
 .list-portfolio-elements {

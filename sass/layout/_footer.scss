@@ -1,15 +1,21 @@
 .footer {
   background-color: #2f303a;
-  padding: 60px 0;
+  // padding: 60px 0;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  height: 603px;
 }
 
 .footer-info {
-  display: flex;
+  // display: flex;
   align-items: flex-start;
 }
+
 .footer-title {
-  margin-bottom: 20px;
+  // margin-bottom: 20px;
+  margin-bottom: 60px;
 }
+
 .footer .studio {
   color: #ffffff;
   font-family: raleway, cursive;
@@ -20,7 +26,8 @@
 .list1 {
   list-style: none;
   padding-top: 20px;
-  margin-right: 70px;
+  // margin-right: 70px;
+  text-align: center;
 }
 
 .address-mulo {
@@ -29,6 +36,7 @@
 
 .address-mulo1 {
   margin-bottom: 0px;
+  margin-bottom: 60px;
 }
 .address .list1 .contact {
   color: #ffffff;
@@ -71,4 +79,7 @@
   text-transform: uppercase;
   color: #ffffff;
   margin-bottom: 18px;
+  margin-top: 60px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
 }

@@ -1,8 +1,11 @@
 .button-list {
   display: flex;
   align-items: center;
-  justify-content: center;
-  margin-bottom: 50px;
+  // justify-content: center;
+  flex-wrap: wrap;
+  // margin-bottom: 50px;
+  margin-bottom: 40px;
+  margin-top: -15px;
   transition: color 250ms linear, background-color 250ms linear,
     cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -52,4 +55,7 @@
   &:not(:last-child) {
     margin-right: 8px;
   }
+}
+.portfolio-item {
+  margin-top: 15px;
 }
