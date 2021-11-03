@@ -6,6 +6,7 @@
   font-size: 14px;
   line-height: 1.1;
   letter-spacing: 0.03em;
+  text-align: center;
 }
 
 .advantage__list {
@@ -13,8 +14,9 @@
   // display: flex;
   // flex-wrap: wrap;
   justify-content: center;
-  // margin-left: -30px;
+  margin-left: -30px;
   padding-bottom: 0px;
+  margin-right: auto;
 }
 
 .advantage {
@@ -22,23 +24,27 @@
 }
 
 .advantage__item {
-  margin-left: 30px;
+  // margin-left: 30px;
   width: 100%;
+  margin-bottom: 30px;
+  margin-left: 30px;
 }
 
 .advantage__link {
   // width: 270px;
-  height: 120px;
+  // height: 120px;
   border-radius: 4px;
   background-color: #f5f4fa;
-  // display: flex;
+  display: flex;
   align-items: center;
   justify-content: center;
   margin-bottom: 30px;
+  width: 450px;
+  height: 120px;
 }
 
 .advantage__icon {
-  // width: 70px;
+  width: 70px;
   height: 70px;
 }
 
@@ -51,4 +57,5 @@
   text-align: left;
   vertical-align: Top;
   padding-top: 10px;
+  line-height: 1.71;
 }
