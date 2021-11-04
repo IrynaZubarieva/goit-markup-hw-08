@@ -25,8 +25,8 @@
     
     <a href="" class="logo">Web<span class="studio">Studio</span></a>
     <button type="button" class="button-menu js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
-    <svg width="40" height="40">
-        <use href="./images/sprite.svg#icon-menu_40px-2"></use>
+    <svg width="40" height="40" aria-label="Переключатель мобильного меню">
+        <use class="icon-menu" href="./images/sprite.svg#icon-menu_40px-2"></use>
     </svg>
     </button>
 
@@ -434,7 +434,7 @@
     </div>
     </footer> 
 
-    <div class="backdrop is-hidden" data-modal>
+    <div class="backdrop is-hidde" data-modal>
         <div class="modal">
 
             <button class="backdrop-window" data-modal-close >
@@ -496,16 +496,17 @@
             </form>
         </div>
 
-        <div class=“ menu-container js-menu-container” id="mobile-menu">
+        <!-- <div class=“ menu-container js-menu-container” id="mobile-menu">
             <button type="button" class="button-menu button-menu-close js-close-menu”>
             </button>
 
-        </div> 
+        </div>  -->
 
     <script defer src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
         integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
         crossorigin="anonymous"></script>
     <script defer src="js/mobile-menu.js"></script>
+    <script src="./js/modal.js"></script>
 
 
 </body>

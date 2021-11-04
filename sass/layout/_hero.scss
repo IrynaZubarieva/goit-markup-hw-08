@@ -15,7 +15,7 @@
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
-    url(../images/Img-2.jpg);
+    url(../images/fonmob1x-2.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -32,6 +32,29 @@
   margin-left: auto;
   padding-top: 118px;
   padding-bottom: 118px;
+  max-width: 1200px;
+  margin: 0 auto;
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    background-image: url(../images/fonmob2x-2.png);
+  }
+  @media screen and (min-width: 768px) {
+    background-image: url(../images/fontabl1x-2.png);
+    @media (min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      background-image: url(../images/fontabl2x-2.png);
+    }
+  }
+  @media screen and (min-width: 1200px) {
+    background-image: url(../images/fondesk1x-2.png);
+    @media (min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      background-image: url(../images/fondesk2x-2.png);
+    }
+  }
 }
 
 .hero-portfolio-list {
