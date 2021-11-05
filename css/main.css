@@ -871,7 +871,7 @@ body {
 }
 
 .hero {
-  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/fonmob1x-2.png);
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/fonmob1x.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -894,31 +894,31 @@ body {
 
 @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .hero {
-    background-image: url(../images/fonmob2x-2.png);
+    background-image: url(../images/fonmob2x.jpg);
   }
 }
 
 @media screen and (min-width: 768px) {
   .hero {
-    background-image: url(../images/fontabl1x-2.png);
+    background-image: url(../images/fontab1x.jpg);
   }
 }
 
 @media screen and (min-width: 768px) and (min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (min-resolution: 2dppx) {
   .hero {
-    background-image: url(../images/fontabl2x-2.png);
+    background-image: url(../images/fontab2x.jpg);
   }
 }
 
 @media screen and (min-width: 1200px) {
   .hero {
-    background-image: url(../images/fondesk1x-2.png);
+    background-image: url(../images/fondesk1x.jpg);
   }
 }
 
 @media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
   .hero {
-    background-image: url(../images/fondesk2x-2.png);
+    background-image: url(../images/fondesk2x.jpg);
   }
 }
 
@@ -1104,6 +1104,12 @@ body {
   margin-top: 30px;
   margin-bottom: 30px;
   width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+  .list-portfolio-elements {
+    display: none;
+  }
 }
 
 .list-portfolio-elements:nth-child(-n + 3) {

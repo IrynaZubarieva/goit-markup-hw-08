@@ -15,7 +15,7 @@
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
-    url(../images/fonmob1x-2.png);
+    url(../images/fonmob1x.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -37,22 +37,22 @@
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
-    background-image: url(../images/fonmob2x-2.png);
+    background-image: url(../images/fonmob2x.jpg);
   }
   @media screen and (min-width: 768px) {
-    background-image: url(../images/fontabl1x-2.png);
+    background-image: url(../images/fontab1x.jpg);
     @media (min-device-pixel-ratio: 2),
       (min-resolution: 192dpi),
       (min-resolution: 2dppx) {
-      background-image: url(../images/fontabl2x-2.png);
+      background-image: url(../images/fontab2x.jpg);
     }
   }
   @media screen and (min-width: 1200px) {
-    background-image: url(../images/fondesk1x-2.png);
+    background-image: url(../images/fondesk1x.jpg);
     @media (min-device-pixel-ratio: 2),
       (min-resolution: 192dpi),
       (min-resolution: 2dppx) {
-      background-image: url(../images/fondesk2x-2.png);
+      background-image: url(../images/fondesk2x.jpg);
     }
   }
 }
