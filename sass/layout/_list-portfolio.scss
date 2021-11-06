@@ -26,13 +26,14 @@
   margin-bottom: 30px;
   width: 100%;
   @media screen and (max-width: 767px) {
-    display: none;
   }
   @media screen and (max-width: 1199px) {
-    display: none;
+    flex-basis: calc(100% / 2 - 30px);
+    margin-left: 30px;
   }
   @media screen and (min-width: 1200px) {
-    display: none;
+    flex-basis: calc(100% / 3 - 30px);
+    margin-left: 30px;
   }
 }
 
